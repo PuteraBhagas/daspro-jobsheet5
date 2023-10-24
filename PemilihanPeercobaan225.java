@@ -21,5 +21,21 @@ public class PemilihanPeercobaan225 {
 
         System.out.println("Nilai akhir = " + total + " sehingga " + message);
 
+        if (total > 80) {
+            System.out.println("A \n sangat baik");
+        } else if (total >= 80){
+            System.out.println("B+ \n Lebih dari baik");
+        } else if (total >=73 ) {
+            System.out.println("B \n Baik");
+        } else if (total >=65 ) {
+            System.out.println("C= \n Lebih dari cukup");
+        } else if (total >=60 ) {
+            System.out.println("C \n Cukup");
+        } else if (total >=50 ) {
+            System.out.println("D \n Kurang");
+        } else if (total >=39 ) {
+            System.out.println("E \n Gagal"); 
+        }
+
     }
 }
